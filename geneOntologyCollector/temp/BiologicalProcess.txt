@@ -1,0 +1,105 @@
+P:germ cell development	1
+P:valyl-tRNA aminoacylation	1
+P:actin filament organization	1
+P:DNA repair	3
+P:dGTP catabolic process	1
+P:multicellular organismal water homeostasis	1
+P:hematopoietic progenitor cell differentiation	1
+P:mitosis	1
+P:tRNA processing	1
+P:regulation of Rho GTPase activity	1
+P:mismatch repair	1
+P:antibiotic biosynthetic process	1
+P:carbon fixation	1
+P:bone development	1
+P:arginine biosynthetic process via ornithine	1
+P:threonine biosynthetic process	1
+P:respiratory gaseous exchange	1
+P:negative regulation of proteasomal ubiquitin-dependent protein catabolic process	1
+P:4-amino-4-deoxy-alpha-L-arabinopyranosyl undecaprenyl phosphate biosynthetic process	1
+P:nodulation	2
+P:ethanolamine catabolic process	1
+P:lipid A biosynthetic process	1
+P:actin cortical patch assembly	1
+P:tryptophan biosynthetic process	1
+P:phosphoenolpyruvate-dependent sugar phosphotransferase system	1
+P:glossopharyngeal nerve development	1
+P:cobalamin biosynthetic process	2
+P:protein transport	1
+P:cell redox homeostasis	1
+P:photosynthetic electron transport chain	1
+P:aging	1
+P:cofactor catabolic process	1
+P:potassium ion transport	1
+P:Gram-negative-bacterium-type cell outer membrane assembly	1
+P:apoptotic process	1
+P:carbohydrate transport	2
+P:cellular carbohydrate metabolic process	1
+P:'de novo' IMP biosynthetic process	1
+P:defense response	1
+P:cholesterol metabolic process	1
+P:protein ubiquitination	1
+P:pyridoxine biosynthetic process	1
+P:cell differentiation	1
+P:glutamine metabolic process	1
+P:protein refolding	1
+P:DNA restriction-modification system	1
+P:response to metal ion	1
+P:nitrogen compound metabolic process	1
+P:RNA processing	1
+P:arginine catabolic process	1
+P:mRNA processing	1
+P:cysteinyl-tRNA aminoacylation	1
+P:D-amino acid metabolic process	1
+P:aromatic compound catabolic process	1
+P:activation of Rho GTPase activity	1
+P:cellular aldehyde metabolic process	1
+P:protein unfolding	1
+P:organic phosphonate catabolic process	1
+P:response to toxic substance	1
+P:protein folding	2
+P:regulation of transcription, DNA-templated	6
+P:transcription, DNA-templated	1
+P:diaminopimelate biosynthetic process	1
+P:unknown	39
+P:dTDP biosynthetic process	1
+P:translation	2
+P:DNA recombination	3
+P:threonylcarbamoyladenosine biosynthetic process	1
+P:activation of MAPKKK activity	1
+P:glycolytic process	2
+P:drug transport	1
+P:response to stimulus	1
+P:ATP catabolic process	1
+P:cell cycle	3
+P:Mo-molybdopterin cofactor biosynthetic process	1
+P:ion transport	1
+P:tryptophanyl-tRNA aminoacylation	1
+P:ATP hydrolysis coupled proton transport	1
+P:biofilm formation	1
+P:glutamyl-tRNA aminoacylation	1
+P:autophagy	1
+P:histone H4-R3 methylation	1
+P:nucleotide phosphorylation	1
+P:endochondral ossification	1
+P:protoporphyrinogen IX biosynthetic process	1
+P:positive regulation of canonical Wnt signaling pathway	1
+P:cell adhesion	1
+P:glutaminyl-tRNA aminoacylation	1
+P:intracellular protein transport	1
+P:barrier septum assembly	1
+P:gamma-aminobutyric acid catabolic process	1
+P:brain development	1
+P:DNA replication	1
+P:zinc ion transport	1
+P:prolyl-tRNA aminoacylation	1
+P:transport	1
+P:rhythmic process	1
+P:axon guidance	1
+P:'de novo' UMP biosynthetic process	2
+P:photosynthetic electron transport in photosystem II	1
+P:lignin biosynthetic process	1
+P:bone mineralization	1
+P:polyphosphate biosynthetic process	1
+P:L-arabinose catabolic process to xylulose 5-phosphate	2
+P:carbohydrate metabolic process	1

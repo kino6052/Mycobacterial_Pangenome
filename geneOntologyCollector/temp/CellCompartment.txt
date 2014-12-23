@@ -1,0 +1,43 @@
+C:Golgi apparatus	1
+C:integral component of membrane	17
+C:cell division site	1
+C:chloroplast	1
+C:interstitial matrix	1
+C:ribosome	2
+C:extracellular space	1
+C:nucleus	8
+C:chloroplast stroma	1
+C:condensed chromosome kinetochore	1
+C:Golgi membrane	2
+C:actin cortical patch	1
+C:cytoplasm	36
+C:pyruvate dehydrogenase complex	1
+C:integral component of plasma membrane	4
+C:centrosome	1
+C:Cdc48p-Npl4p-Ufd1p AAA ATPase complex	1
+C:cytoplasmic vesicle membrane	1
+C:nuclear chromatin	1
+C:plasma membrane	2
+C:Holliday junction helicase complex	1
+C:cytosol	2
+C:cell outer membrane	1
+C:polyphosphate kinase complex	1
+C:membrane	1
+C:cell surface	2
+C:extracellular region	2
+C:central vacuole	1
+C:fungal-type vacuole membrane	1
+C:myofibril	1
+C:endoplasmic reticulum membrane	1
+C:mitochondrial matrix	1
+C:apical plasma membrane	1
+C:chromosome	1
+C:dendrite	1
+C:mitochondrion	1
+C:endoplasmic reticulum	2
+C:outer membrane-bounded periplasmic space	1
+C:HslUV protease complex	1
+C:apoplast	1
+C:periplasmic space	1
+C:unknown	52
+C:axon	1

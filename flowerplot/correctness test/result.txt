@@ -1,0 +1,2 @@
+['ABK', 'ABM', 'CAM', 'EJZ']	28	1
+['CAM', 'ESK', 'TUB']	21	1

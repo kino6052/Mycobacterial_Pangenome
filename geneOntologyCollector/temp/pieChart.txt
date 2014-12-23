@@ -1,0 +1,162 @@
+C:unknown	P:dGTP catabolic process	F:dGTPase activity;	F:magnesium ion binding;	F:phosphoric diester hydrolase activity;				
+C:nucleus	P:endochondral ossification	F:transcription factor binding;						
+C:integral component of plasma membrane	P:nucleotide phosphorylation	F:guanylate kinase activity;						
+C:unknown	P:mRNA processing	F:ribonuclease activity;	F:translation initiation factor activity;					
+C:extracellular region	P:unknown	F:lipid transporter activity;	F:nutrient reservoir activity;					
+C:cytoplasm	P:arginine biosynthetic process via ornithine	F:argininosuccinate lyase activity;						
+C:unknown	P:cofactor catabolic process	F:enamidase activity;	F:metal ion binding;					
+C:endoplasmic reticulum	P:cellular aldehyde metabolic process	F:L-arabinose isomerase activity;	F:manganese ion binding;					
+C:cytoplasm	P:L-arabinose catabolic process to xylulose 5-phosphate	F:G-protein coupled receptor activity;						
+C:integral component of membrane	P:unknown	F:ligand-gated sodium channel activity;	F:protein binding;	F:WW domain binding;				
+C:apical plasma membrane	P:multicellular organismal water homeostasis							
+C:endoplasmic reticulum	P:hematopoietic progenitor cell differentiation	F:transporter activity;						
+C:cytoplasm	P:response to metal ion	F:metal ion binding;	F:protein serine/threonine phosphatase activity;					
+C:nucleus	P:cell differentiation	F:ATP binding;	F:helicase activity;	F:heparin binding;				
+C:cytoplasm	P:regulation of transcription, DNA-templated							
+C:unknown	P:cobalamin biosynthetic process	F:ATP binding;						
+C:cytoplasm	P:glutamine metabolic process							
+C:cytoplasm	P:pyridoxine biosynthetic process	F:RNA-directed RNA polymerase activity;	F:single-stranded RNA binding;					
+C:unknown	P:unknown	F:magnesium ion binding;	F:triphosphatase activity;					
+C:integral component of membrane	P:carbohydrate transport	F:heme binding;	F:iron ion binding;	F:nitric oxide dioxygenase activity;	F:oxygen binding;	F:oxygen transporter activity;		
+C:unknown	P:response to toxic substance	F:pyridoxal phosphate binding;	F:threonine synthase activity;					
+C:cytoplasm	P:threonine biosynthetic process	F:aminoacyl-tRNA editing activity;	F:ATP binding;	F:proline-tRNA ligase activity;				
+C:unknown	P:unknown	F:calcium ion binding;						
+C:cytoplasm	P:threonylcarbamoyladenosine biosynthetic process	F:ATP binding;	F:protein kinase activity;	F:transmembrane-ephrin receptor activity;				
+C:integral component of membrane	P:ethanolamine catabolic process	F:DNA ligase (NAD+) activity;	F:metal ion binding;					
+C:unknown	P:DNA repair	F:motor activity;						
+C:myofibril	P:unknown	F:NAD binding;	F:precorrin-2 dehydrogenase activity;	F:sirohydrochlorin ferrochelatase activity;	F:uroporphyrin-III C-methyltransferase activity;			
+C:unknown	P:cobalamin biosynthetic process							
+C:unknown	P:gamma-aminobutyric acid catabolic process	F:DNA binding;	F:sequence-specific DNA binding transcription factor activity;					
+C:mitochondrial matrix	P:protoporphyrinogen IX biosynthetic process	F:phosphoprotein phosphatase activity;						
+C:unknown	P:unknown	F:arginine decarboxylase activity;	F:metal ion binding;					
+C:unknown	P:arginine catabolic process							
+C:unknown	P:lipid A biosynthetic process	F:rRNA binding;	F:structural constituent of ribosome;					
+C:cytoplasm	P:nitrogen compound metabolic process	F:DNA binding;	F:tyrosine-based site-specific recombinase activity;					
+C:cytoplasm	P:cell cycle	F:ATP binding;	F:helicase activity;	F:mRNA methyltransferase activity;	F:RNA binding;	F:RNA-directed RNA polymerase activity;		
+C:cytoplasm	P:cellular carbohydrate metabolic process	F:lyase activity;	F:Mo-molybdopterin cofactor sulfurase activity;	F:molybdenum ion binding;	F:pyridoxal phosphate binding;	F:transferase activity;		
+C:unknown	P:Mo-molybdopterin cofactor biosynthetic process	F:ATP binding;	F:cysteine-tRNA ligase activity;	F:zinc ion binding;				
+C:cytoplasm	P:carbon fixation							
+C:unknown	P:glycolytic process	F:ATP binding;	F:MAP kinase kinase kinase kinase activity;	F:protein binding;	F:protein kinase activity;	F:protein serine/threonine kinase activity;	F:small GTPase regulator activity;	
+C:integral component of membrane	P:photosynthetic electron transport in photosystem II							
+C:unknown	P:organic phosphonate catabolic process	F:transporter activity;						
+C:apoplast	P:lignin biosynthetic process	F:16S rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase activity;	F:RNA binding;	F:rRNA (adenine-N6,N6-)-dimethyltransferase activity;				
+C:cytoplasm	P:unknown	F:dihydroorotase activity;	F:zinc ion binding;					
+C:unknown	P:'de novo' UMP biosynthetic process	F:DNA binding;						
+C:integral component of membrane	P:unknown	F:isomerase activity;	F:metal ion binding;					
+C:unknown	P:unknown							
+C:cytoplasm	P:diaminopimelate biosynthetic process	F:cysteine-type endopeptidase activity;	F:ubiquitin thiolesterase activity;	F:ubiquitin-specific protease activity;				
+C:Golgi membrane	P:unknown	F:maltose transmembrane transporter activity;						
+C:plasma membrane	P:unknown	F:dihydrolipoyllysine-residue acetyltransferase activity;						
+C:pyruvate dehydrogenase complex	P:glycolytic process	F:2,5-dihydroxypyridine 5,6-dioxygenase activity;	F:metal ion binding;					
+C:unknown	P:aromatic compound catabolic process	F:SNAP receptor activity;	F:transferase activity;					
+C:cytosol	P:intracellular protein transport	F:rRNA binding;	F:structural constituent of ribosome;					
+C:outer membrane-bounded periplasmic space	P:biofilm formation							
+C:cytoplasm	P:tRNA processing	F:cytochrome-b5 reductase activity, acting on NAD(P)H;	F:NAD(P)H dehydrogenase (quinone) activity;	F:poly(A) RNA binding;	F:protein binding;	F:superoxide dismutase activity;		
+C:cytoplasm	P:aging							
+C:nucleus	P:histone H4-R3 methylation	F:D-cysteine desulfhydrase activity;						
+C:unknown	P:D-amino acid metabolic process	F:DNA binding;	F:DNA-directed RNA polymerase activity;					
+C:unknown	P:regulation of Rho GTPase activity	F:ATP binding;	F:single-stranded DNA binding;					
+C:integral component of membrane	P:protein folding	F:DNA binding;	F:metal ion binding;	F:peroxisome proliferator activated receptor binding;	F:protein binding;	F:retinoic acid receptor binding;	F:transcription coactivator activity;	F:transcription corepressor activity;
+C:unknown	P:unknown	F:magnesium ion binding;	F:terpene synthase activity;					
+C:Cdc48p-Npl4p-Ufd1p AAA ATPase complex	P:negative regulation of proteasomal ubiquitin-dependent protein catabolic process	F:serine-type carboxypeptidase activity;						
+C:Golgi apparatus	P:apoptotic process	F:metalloendopeptidase activity;	F:zinc ion binding;					
+C:extracellular space	P:unknown							
+C:integral component of plasma membrane	P:bone mineralization	F:metal ion binding;						
+C:unknown	P:tryptophan biosynthetic process							
+C:cytoplasm	P:unknown	F:ATP binding;						
+C:unknown	P:unknown	F:cysteine-type peptidase activity;						
+C:unknown	P:unknown	F:substrate-specific transmembrane transporter activity;	F:symporter activity;					
+C:periplasmic space	P:cell redox homeostasis							
+C:ribosome	P:translation	F:DNA binding;						
+C:cell surface	P:cell adhesion	F:bacteriochlorophyll binding;	F:electron transporter, transferring electrons within the cyclic electron transport pathway of photosynthesis activity;	F:metal ion binding;				
+C:unknown	P:unknown	F:4-hydroxy-tetrahydrodipicolinate synthase;	F:amine-lyase activity;					
+C:mitochondrion	P:valyl-tRNA aminoacylation	F:histone binding;						
+C:integral component of membrane	P:potassium ion transport	F:transmembrane signaling receptor activity;						
+C:integral component of membrane	P:Gram-negative-bacterium-type cell outer membrane assembly	F:anthranilate phosphoribosyltransferase activity;	F:magnesium ion binding;					
+C:integral component of membrane	P:zinc ion transport	F:metal ion transmembrane transporter activity;						
+C:integral component of membrane	P:brain development	F:DNA binding;	F:RNA binding;					
+C:membrane	P:nodulation	F:phosphoenolpyruvate carboxylase activity;						
+C:unknown	P:nodulation	F:ATP binding;	F:DNA binding;	F:DNA-dependent ATPase activity;	F:gamma-tubulin binding;	F:protein binding;	F:single-stranded DNA binding;	
+C:unknown	P:L-arabinose catabolic process to xylulose 5-phosphate	F:DNA binding;	F:metal ion binding;					
+C:unknown	P:unknown	F:DNA binding;	F:metal ion binding;					
+C:integral component of membrane	P:carbohydrate metabolic process	F:cation transmembrane transporter activity;						
+C:cytoplasm	P:unknown	F:ATP binding;	F:ribulokinase activity;					
+C:actin cortical patch	P:actin cortical patch assembly	F:ATP binding;	F:ATPase activity;	F:peptidase activity, acting on L-amino acid peptides;				
+C:endoplasmic reticulum membrane	P:unknown	F:NAPE-specific phospholipase D activity;	F:protein binding;					
+C:central vacuole	P:unknown	F:thiopurine S-methyltransferase activity;						
+C:cell division site	P:barrier septum assembly	F:cobalamin-transporting ATPase activity;						
+C:cytoplasm	P:prolyl-tRNA aminoacylation	F:aminopeptidase activity;	F:metal ion binding;	F:metallopeptidase activity;				
+C:centrosome	P:ATP catabolic process	F:5-aminolevulinate synthase activity;	F:pyridoxal phosphate binding;					
+C:cell surface	P:axon guidance	F:phosphotransferase activity, for other substituted phosphate groups;	F:transferase activity, transferring glycosyl groups;					
+C:integral component of membrane	P:4-amino-4-deoxy-alpha-L-arabinopyranosyl undecaprenyl phosphate biosynthetic process							
+C:unknown	P:positive regulation of canonical Wnt signaling pathway	F:methyltransferase activity;						
+C:ribosome	P:translation	F:peptide binding;	F:peptidyl-prolyl cis-trans isomerase activity;					
+C:chloroplast	P:transcription, DNA-templated	F:GTP binding;	F:GTPase activity;	F:translation initiation factor activity;				
+C:cytoplasm	P:unknown	F:Rho GTPase binding;	F:Rho guanyl-nucleotide exchange factor activity;					
+C:cytoplasm	P:defense response	F:K6-linked polyubiquitin binding;	F:protein binding;					
+C:cell outer membrane	P:ion transport	F:ATP binding;	F:glutamate-tRNA ligase activity;					
+C:axon	P:response to stimulus	F:calcium ion binding;						
+C:chloroplast stroma	P:photosynthetic electron transport chain	F:ATP binding;	F:tryptophan-tRNA ligase activity;					
+C:cytoplasm	P:activation of MAPKKK activity	F:receptor binding;						
+C:chromosome	P:DNA repair	F:DNA binding;						
+C:integral component of membrane	P:unknown							
+C:condensed chromosome kinetochore	P:mitosis	F:GTP binding;	F:GTPase activity;	F:metal ion binding;				
+C:cytoplasm	P:regulation of transcription, DNA-templated	F:ACP phosphopantetheine attachment site binding involved in fatty acid biosynthetic process;						
+C:cytoplasm	P:respiratory gaseous exchange	F:lipid-A-disaccharide synthase activity;						
+C:cytoplasm	P:cysteinyl-tRNA aminoacylation							
+C:cytoplasm	P:unknown							
+C:cytoplasm	P:cell cycle	F:UDP-N-acetylglucosamine 1-carboxyvinyltransferase activity;						
+C:cytoplasm	P:glutamyl-tRNA aminoacylation	F:phosphotransferase activity, phosphate group as acceptor;	F:undecaprenyl-diphosphatase activity;					
+C:cytoplasm	P:glutaminyl-tRNA aminoacylation	F:ATP binding;	F:glutamine-tRNA ligase activity;					
+C:cytoplasm	P:unknown	F:protein disulfide oxidoreductase activity;						
+C:cytoplasm	P:cholesterol metabolic process							
+C:dendrite	P:regulation of transcription, DNA-templated							
+C:cytoplasmic vesicle membrane	P:autophagy							
+C:cytoplasm	P:DNA repair	F:peptidyl-prolyl cis-trans isomerase activity;						
+C:cytoplasm	P:cell cycle	F:ATP binding;	F:tetrahydrofolylpolyglutamate synthase activity;	F:UDP-N-acetylmuramoylalanine-D-glutamate ligase activity;				
+C:nuclear chromatin	P:bone development	F:ATP binding;	F:ATPase activity, coupled to transmembrane movement of substances;					
+C:extracellular region	P:unknown	F:ATP binding;	F:DNA binding;	F:helicase activity;				
+C:Golgi membrane	P:protein transport							
+C:cytoplasm	P:tryptophanyl-tRNA aminoacylation	F:ATP binding;	F:polyphosphate kinase activity;					
+C:nucleus	P:unknown	F:receptor activity;						
+C:cytoplasm	P:protein refolding	F:DNA binding;	F:phosphorelay response regulator activity;					
+C:nucleus	P:regulation of transcription, DNA-templated	F:calcium ion binding;	F:protein binding;	F:protein binding, bridging;				
+C:integral component of membrane	P:transport	F:iron ion binding;	F:metalloendopeptidase activity;	F:transferase activity, transferring acyl groups other than amino-acyl groups;				
+C:integral component of membrane	P:carbohydrate transport							
+C:cytoplasm	P:protein folding	F:ATP binding;	F:proton-transporting ATP synthase activity, rotational mechanism;	F:proton-transporting ATPase activity, rotational mechanism;				
+C:nucleus	P:regulation of transcription, DNA-templated	F:hydrolase activity;	F:metal ion binding;					
+C:cytosol	P:'de novo' IMP biosynthetic process	F:ATP binding;	F:metal ion binding;	F:methyltransferase activity;	F:phosphoribosylamine-glycine ligase activity;	F:phosphoribosylformylglycinamidine cyclo-ligase activity;	F:phosphoribosylglycinamide formyltransferase activity;	
+C:integral component of membrane	P:phosphoenolpyruvate-dependent sugar phosphotransferase system	F:3-chloroallyl aldehyde dehydrogenase activity;	F:aldehyde dehydrogenase (NAD) activity;	F:aldehyde dehydrogenase [NAD(P)+] activity;				
+C:unknown	P:DNA recombination							
+C:integral component of plasma membrane	P:unknown	F:DNA binding;						
+C:fungal-type vacuole membrane	P:drug transport	F:glutamate dehydrogenase (NAD+) activity;						
+C:Holliday junction helicase complex	P:DNA recombination	F:ATP binding;	F:DNA binding;	F:four-way junction helicase activity;				
+C:unknown	P:antibiotic biosynthetic process							
+C:HslUV protease complex	P:protein unfolding	F:protein C-terminal S-isoprenylcysteine carboxyl O-methyltransferase activity;						
+C:unknown	P:DNA recombination	F:2,3-bisphosphoglycerate-dependent phosphoglycerate mutase activity;						
+C:integral component of membrane	P:unknown	F:imidazoleglycerol-phosphate synthase activity;						
+C:unknown	P:DNA replication	F:ethanolamine transmembrane transporter activity;						
+C:integral component of plasma membrane	P:activation of Rho GTPase activity	F:ATP binding;	F:thymidylate kinase activity;					
+C:unknown	P:protein ubiquitination							
+C:interstitial matrix	P:glossopharyngeal nerve development	F:ATP binding;	F:DNA binding;	F:Type I site-specific deoxyribonuclease activity;				
+C:unknown	P:rhythmic process	F:aminoacyl-tRNA editing activity;	F:ATP binding;	F:valine-tRNA ligase activity;				
+C:unknown	P:unknown	F:oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor;						
+C:nucleus	P:actin filament organization	F:cation transmembrane transporter activity;						
+C:nucleus	P:germ cell development	F:ATP binding;	F:ATP-dependent helicase activity;	F:DNA binding;	F:RNA binding;			
+C:unknown	P:unknown	F:ACP phosphopantetheine attachment site binding involved in fatty acid biosynthetic process;						
+C:plasma membrane	P:ATP hydrolysis coupled proton transport	F:ATP binding;	F:potassium-transporting ATPase activity;					
+C:unknown	P:unknown	F:nickel cation binding;						
+C:polyphosphate kinase complex	P:polyphosphate biosynthetic process	F:core promoter sequence-specific DNA binding;	F:metal ion binding;	F:RNA polymerase II core promoter proximal region sequence-specific DNA binding transcription factor activity involved in positive regulation of transcription;				
+C:unknown	P:unknown	F:2-aminoethylphosphonate-pyruvate transaminase activity;	F:pyridoxal phosphate binding;					
+C:unknown	P:'de novo' UMP biosynthetic process	F:ATP binding;	F:carbamoyl-phosphate synthase (glutamine-hydrolyzing) activity;	F:magnesium ion binding;	F:manganese ion binding;			
+C:unknown	P:unknown	F:cinnamyl-alcohol dehydrogenase activity;	F:sinapyl alcohol dehydrogenase activity;	F:zinc ion binding;				
+C:unknown	P:mismatch repair	F:ATP binding;	F:damaged DNA binding;	F:mismatched DNA binding;				
+C:unknown	P:unknown	F:pyridoxine 5'-phosphate synthase activity;						
+C:unknown	P:unknown							
+C:unknown	P:regulation of transcription, DNA-templated	F:ATP binding;	F:calmodulin-dependent protein kinase activity;	F:myosin light chain kinase activity;	F:protein kinase activity;			
+C:unknown	P:dTDP biosynthetic process							
+C:unknown	P:unknown	F:transporter activity;						
+C:unknown	P:unknown							
+C:unknown	P:DNA restriction-modification system	F:NAD+ binding;	F:NAD-dependent protein deacetylase activity;	F:protein-malonyllysine demalonylase activity;	F:protein-succinyllysine desuccinylase activity;	F:zinc ion binding;		
+C:unknown	P:RNA processing	F:transferase activity, transferring acyl groups, acyl groups converted into alkyl on transfer;						
+C:unknown	P:unknown	F:sulfurtransferase activity;						

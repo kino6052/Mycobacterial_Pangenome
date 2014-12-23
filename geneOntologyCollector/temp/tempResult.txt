@@ -1,0 +1,162 @@
+P:actin cortical patch assembly
+P:multicellular organismal water homeostasis
+P:lignin biosynthetic process
+P:response to stimulus
+P:negative regulation of proteasomal ubiquitin-dependent protein catabolic process
+P:barrier septum assembly
+P:ion transport
+P:cell adhesion
+P:axon guidance
+P:unknown
+P:ATP catabolic process
+P:photosynthetic electron transport chain
+P:transcription, DNA-templated
+P:DNA repair
+P:mitosis
+P:activation of MAPKKK activity
+P:aging
+P:respiratory gaseous exchange
+P:L-arabinose catabolic process to xylulose 5-phosphate
+P:cellular carbohydrate metabolic process
+P:unknown
+P:unknown
+P:diaminopimelate biosynthetic process
+P:unknown
+P:unknown
+P:prolyl-tRNA aminoacylation
+P:arginine biosynthetic process via ornithine
+P:cysteinyl-tRNA aminoacylation
+P:glutamyl-tRNA aminoacylation
+P:glutaminyl-tRNA aminoacylation
+P:DNA repair
+P:cell cycle
+P:tryptophanyl-tRNA aminoacylation
+P:protein refolding
+P:protein folding
+P:regulation of transcription, DNA-templated
+P:cell cycle
+P:unknown
+P:glutamine metabolic process
+P:threonylcarbamoyladenosine biosynthetic process
+P:defense response
+P:regulation of transcription, DNA-templated
+P:nitrogen compound metabolic process
+P:carbon fixation
+P:pyridoxine biosynthetic process
+P:tRNA processing
+P:response to metal ion
+P:cell cycle
+P:threonine biosynthetic process
+P:unknown
+P:cholesterol metabolic process
+P:autophagy
+P:intracellular protein transport
+P:'de novo' IMP biosynthetic process
+P:regulation of transcription, DNA-templated
+P:unknown
+P:hematopoietic progenitor cell differentiation
+P:cellular aldehyde metabolic process
+P:unknown
+P:unknown
+P:unknown
+P:drug transport
+P:apoptotic process
+P:unknown
+P:protein transport
+P:DNA recombination
+P:protein unfolding
+P:transport
+P:unknown
+P:photosynthetic electron transport in photosystem II
+P:brain development
+P:carbohydrate metabolic process
+P:potassium ion transport
+P:ethanolamine catabolic process
+P:unknown
+P:unknown
+P:4-amino-4-deoxy-alpha-L-arabinopyranosyl undecaprenyl phosphate biosynthetic process
+P:Gram-negative-bacterium-type cell outer membrane assembly
+P:unknown
+P:carbohydrate transport
+P:phosphoenolpyruvate-dependent sugar phosphotransferase system
+P:zinc ion transport
+P:protein folding
+P:carbohydrate transport
+P:unknown
+P:activation of Rho GTPase activity
+P:bone mineralization
+P:nucleotide phosphorylation
+P:glossopharyngeal nerve development
+P:nodulation
+P:protoporphyrinogen IX biosynthetic process
+P:valyl-tRNA aminoacylation
+P:unknown
+P:bone development
+P:unknown
+P:endochondral ossification
+P:actin filament organization
+P:germ cell development
+P:regulation of transcription, DNA-templated
+P:regulation of transcription, DNA-templated
+P:cell differentiation
+P:histone H4-R3 methylation
+P:biofilm formation
+P:cell redox homeostasis
+P:ATP hydrolysis coupled proton transport
+P:unknown
+P:polyphosphate biosynthetic process
+P:glycolytic process
+P:translation
+P:translation
+P:glycolytic process
+P:aromatic compound catabolic process
+P:organic phosphonate catabolic process
+P:unknown
+P:tryptophan biosynthetic process
+P:arginine catabolic process
+P:'de novo' UMP biosynthetic process
+P:mismatch repair
+P:regulation of transcription, DNA-templated
+P:dTDP biosynthetic process
+P:DNA restriction-modification system
+P:RNA processing
+P:L-arabinose catabolic process to xylulose 5-phosphate
+P:cobalamin biosynthetic process
+P:positive regulation of canonical Wnt signaling pathway
+P:unknown
+P:D-amino acid metabolic process
+P:dGTP catabolic process
+P:'de novo' UMP biosynthetic process
+P:DNA recombination
+P:nodulation
+P:DNA repair
+P:cofactor catabolic process
+P:unknown
+P:unknown
+P:response to toxic substance
+P:unknown
+P:lipid A biosynthetic process
+P:Mo-molybdopterin cofactor biosynthetic process
+P:unknown
+P:cobalamin biosynthetic process
+P:gamma-aminobutyric acid catabolic process
+P:unknown
+P:regulation of Rho GTPase activity
+P:mRNA processing
+P:unknown
+P:antibiotic biosynthetic process
+P:DNA recombination
+P:DNA replication
+P:protein ubiquitination
+P:rhythmic process
+P:unknown
+P:unknown
+P:unknown
+P:unknown
+P:unknown
+P:unknown
+P:unknown
+P:unknown
+P:unknown
+P:unknown
+P:unknown

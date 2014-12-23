@@ -1,0 +1,182 @@
+	690
+F:NAD binding;	1
+F:gamma-tubulin binding;	1
+F:Rho guanyl-nucleotide exchange factor activity;	1
+F:receptor activity;	1
+F:glutamine-tRNA ligase activity;	1
+F:16S rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase activity;	1
+F:D-cysteine desulfhydrase activity;	1
+F:transcription coactivator activity;	1
+F:structural constituent of ribosome;	2
+F:glutamate-tRNA ligase activity;	1
+F:pyridoxine 5'-phosphate synthase activity;	1
+F:sulfurtransferase activity;	1
+F:calcium ion binding;	3
+F:ATP-dependent helicase activity;	1
+F:RNA binding;	4
+F:NAPE-specific phospholipase D activity;	1
+F:protein serine/threonine kinase activity;	1
+F:undecaprenyl-diphosphatase activity;	1
+F:retinoic acid receptor binding;	1
+F:transcription factor binding;	1
+F:cinnamyl-alcohol dehydrogenase activity;	1
+F:aminoacyl-tRNA editing activity;	2
+F:rRNA (adenine-N6,N6-)-dimethyltransferase activity;	1
+F:DNA-directed RNA polymerase activity;	1
+F:heparin binding;	1
+F:transferase activity, transferring glycosyl groups;	1
+F:dihydroorotase activity;	1
+F:carbamoyl-phosphate synthase (glutamine-hydrolyzing) activity;	1
+F:protein serine/threonine phosphatase activity;	1
+F:molybdenum ion binding;	1
+F:histone binding;	1
+F:protein binding, bridging;	1
+F:single-stranded RNA binding;	1
+F:NAD-dependent protein deacetylase activity;	1
+F:Type I site-specific deoxyribonuclease activity;	1
+F:oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor;	1
+F:ACP phosphopantetheine attachment site binding involved in fatty acid biosynthetic process;	2
+F:MAP kinase kinase kinase kinase activity;	1
+F:poly(A) RNA binding;	1
+F:ligand-gated sodium channel activity;	1
+F:WW domain binding;	1
+F:sirohydrochlorin ferrochelatase activity;	1
+F:mRNA methyltransferase activity;	1
+F:UDP-N-acetylmuramoylalanine-D-glutamate ligase activity;	1
+F:ribulokinase activity;	1
+F:single-stranded DNA binding;	2
+F:protein kinase activity;	3
+F:aminopeptidase activity;	1
+F:sinapyl alcohol dehydrogenase activity;	1
+F:enamidase activity;	1
+F:phosphotransferase activity, for other substituted phosphate groups;	1
+F:GTP binding;	2
+F:precorrin-2 dehydrogenase activity;	1
+F:cytochrome-b5 reductase activity, acting on NAD(P)H;	1
+F:sequence-specific DNA binding transcription factor activity;	1
+F:calmodulin-dependent protein kinase activity;	1
+F:5-aminolevulinate synthase activity;	1
+F:zinc ion binding;	5
+
+	161
+F:RNA-directed RNA polymerase activity;	2
+F:protein-malonyllysine demalonylase activity;	1
+F:guanylate kinase activity;	1
+F:thiopurine S-methyltransferase activity;	1
+F:potassium-transporting ATPase activity;	1
+F:protein-succinyllysine desuccinylase activity;	1
+F:myosin light chain kinase activity;	1
+F:tyrosine-based site-specific recombinase activity;	1
+F:tetrahydrofolylpolyglutamate synthase activity;	1
+F:transferase activity, transferring acyl groups other than amino-acyl groups;	1
+F:dihydrolipoyllysine-residue acetyltransferase activity;	1
+F:cysteine-type endopeptidase activity;	1
+F:symporter activity;	1
+F:metalloendopeptidase activity;	2
+F:nutrient reservoir activity;	1
+F:K6-linked polyubiquitin binding;	1
+F:ATPase activity;	1
+F:anthranilate phosphoribosyltransferase activity;	1
+F:small GTPase regulator activity;	1
+F:manganese ion binding;	2
+F:receptor binding;	1
+F:translation initiation factor activity;	2
+F:metallopeptidase activity;	1
+F:phosphoenolpyruvate carboxylase activity;	1
+F:valine-tRNA ligase activity;	1
+F:lipid-A-disaccharide synthase activity;	1
+F:aldehyde dehydrogenase (NAD) activity;	1
+F:oxygen binding;	1
+F:core promoter sequence-specific DNA binding;	1
+F:ubiquitin-specific protease activity;	1
+F:magnesium ion binding;	5
+F:tryptophan-tRNA ligase activity;	1
+F:G-protein coupled receptor activity;	1
+F:phosphoric diester hydrolase activity;	1
+F:isomerase activity;	1
+F:DNA binding;	17
+F:dGTPase activity;	1
+F:protein binding;	8
+F:ribonuclease activity;	1
+F:nitric oxide dioxygenase activity;	1
+F:polyphosphate kinase activity;	1
+F:terpene synthase activity;	1
+F:transmembrane signaling receptor activity;	1
+F:electron transporter, transferring electrons within the cyclic electron transport pathway of photosynthesis activity;	1
+F:heme binding;	1
+F:DNA ligase (NAD+) activity;	1
+F:NAD(P)H dehydrogenase (quinone) activity;	1
+F:transmembrane-ephrin receptor activity;	1
+F:UDP-N-acetylglucosamine 1-carboxyvinyltransferase activity;	1
+F:protein disulfide oxidoreductase activity;	1
+F:RNA polymerase II core promoter proximal region sequence-specific DNA binding transcription factor activity involved in positive regulation of transcription;	1
+F:GTPase activity;	2
+F:lyase activity;	1
+F:mismatched DNA binding;	1
+F:3-chloroallyl aldehyde dehydrogenase activity;	1
+F:amine-lyase activity;	1
+F:damaged DNA binding;	1
+F:2-aminoethylphosphonate-pyruvate transaminase activity;	1
+F:transferase activity;	2
+F:2,5-dihydroxypyridine 5,6-dioxygenase activity;	1
+F:metal ion binding;	16
+F:ethanolamine transmembrane transporter activity;	1
+F:triphosphatase activity;	1
+F:peptidyl-prolyl cis-trans isomerase activity;	2
+F:serine-type carboxypeptidase activity;	1
+F:bacteriochlorophyll binding;	1
+F:ATP binding;	30
+F:SNAP receptor activity;	1
+F:cobalamin-transporting ATPase activity;	1
+F:thymidylate kinase activity;	1
+F:transcription corepressor activity;
+	1
+F:proton-transporting ATP synthase activity, rotational mechanism;	1
+F:phosphorelay response regulator activity;	1
+F:threonine synthase activity;	1
+F:2,3-bisphosphoglycerate-dependent phosphoglycerate mutase activity;	1
+F:oxygen transporter activity;	1
+F:nickel cation binding;	1
+F:maltose transmembrane transporter activity;	1
+F:ubiquitin thiolesterase activity;	1
+F:rRNA binding;	2
+F:cysteine-tRNA ligase activity;	1
+F:Rho GTPase binding;	1
+F:superoxide dismutase activity;	1
+F:lipid transporter activity;	1
+F:DNA-dependent ATPase activity;	1
+F:argininosuccinate lyase activity;	1
+F:cation transmembrane transporter activity;	2
+F:L-arabinose isomerase activity;	1
+F:phosphotransferase activity, phosphate group as acceptor;	1
+F:phosphoribosylglycinamide formyltransferase activity;	1
+F:methyltransferase activity;	2
+F:NAD+ binding;	1
+F:peptidase activity, acting on L-amino acid peptides;	1
+F:protein C-terminal S-isoprenylcysteine carboxyl O-methyltransferase activity;	1
+F:arginine decarboxylase activity;	1
+F:Mo-molybdopterin cofactor sulfurase activity;	1
+F:ATPase activity, coupled to transmembrane movement of substances;	1
+F:cysteine-type peptidase activity;	1
+F:glutamate dehydrogenase (NAD+) activity;	1
+F:imidazoleglycerol-phosphate synthase activity;	1
+F:phosphoribosylamine-glycine ligase activity;	1
+F:proton-transporting ATPase activity, rotational mechanism;	1
+F:transporter activity;	3
+F:helicase activity;	3
+F:4-hydroxy-tetrahydrodipicolinate synthase;	1
+F:transferase activity, transferring acyl groups, acyl groups converted into alkyl on transfer;	1
+F:hydrolase activity;	1
+F:phosphoprotein phosphatase activity;	1
+F:substrate-specific transmembrane transporter activity;	1
+F:peptide binding;	1
+F:pyridoxal phosphate binding;	4
+F:metal ion transmembrane transporter activity;	1
+F:proline-tRNA ligase activity;	1
+F:four-way junction helicase activity;	1
+F:phosphoribosylformylglycinamidine cyclo-ligase activity;	1
+F:uroporphyrin-III C-methyltransferase activity;	1
+F:motor activity;	1
+F:iron ion binding;	2
+F:peroxisome proliferator activated receptor binding;	1
+F:aldehyde dehydrogenase [NAD(P)+] activity;	1
