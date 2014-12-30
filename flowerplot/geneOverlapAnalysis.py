@@ -30,7 +30,7 @@ from collections import namedtuple
 ## TO DO: Write test functions to check necessary files in the folder
 
 ## Ask user to provide genomes to build database
-files = [ f for f in listdir('./genomes/') if isfile(join('./genomes/',f)) and '.fa' in f and not '.gz' in f]
+files = [ join('./genomes/',f) for f in listdir('./genomes/') if isfile(join('./genomes/',f)) and '.fa' in f and not '.gz' in f]
 
 def concatFile(genomeFlag):
 	outputFile = open('./database/database.fa', 'w')
