@@ -1,0 +1,68 @@
+EJZ10692	gi|500106788|ref|WP_011782793.1| hypothetical protein [Mycobacterium vanbaalenii] >gi|120406618|ref|YP_956447.1| hypothetical protein Mvan_5676 [Mycobacterium vanbaalenii PYR-1] >gi|119959436|gb|ABM16441.1| conserved hypothetical protein [Mycobacterium vanbaalenii PYR-1]	0.36324479540559945
+gi|500106788|ref|WP_011782793.1| hypothetical protein [Mycobacterium vanbaalenii] >gi|120406618|ref|YP_956447.1| hypothetical protein Mvan_5676 [Mycobacterium vanbaalenii PYR-1] >gi|119959436|gb|ABM16441.1| conserved hypothetical protein [Mycobacterium vanbaalenii PYR-1]	0.36324479540559945
+EJZ10694	gi|602524137|emb|CDO29212.1| hypothetical protein BN979_02007 [Mycobacterium vulneris]	0.3693467336683417
+gi|602524137|emb|CDO29212.1| hypothetical protein BN979_02007 [Mycobacterium vulneris]	0.3693467336683417
+EJZ10697	gi|504631083|ref|WP_014818185.1| hypothetical protein [Mycobacterium chubuense] >gi|392418793|ref|YP_006455398.1| hypothetical protein Mycch_5032 [Mycobacterium chubuense NBB4] >gi|390618569|gb|AFM19719.1| hypothetical protein Mycch_5032 [Mycobacterium chubuense NBB4]	0.2802197802197802
+gi|504631083|ref|WP_014818185.1| hypothetical protein [Mycobacterium chubuense] >gi|392418793|ref|YP_006455398.1| hypothetical protein Mycch_5032 [Mycobacterium chubuense NBB4] >gi|390618569|gb|AFM19719.1| hypothetical protein Mycch_5032 [Mycobacterium chubuense NBB4]	0.2802197802197802
+EJZ10753	gi|594680287|ref|XP_007187855.1| PREDICTED: formin-like protein 5-like [Balaenoptera acutorostrata scammoni]	0.0
+gi|594680287|ref|XP_007187855.1| PREDICTED: formin-like protein 5-like [Balaenoptera acutorostrata scammoni]	0.0
+EJZ10783	gi|674844073|ref|WP_031601675.1| hypothetical protein [Mycobacterium neoaurum] >gi|674843480|ref|YP_008908924.2| hypothetical protein D174_22560 [Mycobacterium neoaurum VKM Ac-1815D] >gi|674791620|gb|AHC27156.2| hypothetical protein D174_22560 [Mycobacterium neoaurum VKM Ac-1815D]	0.3839869281045752
+gi|674844073|ref|WP_031601675.1| hypothetical protein [Mycobacterium neoaurum] >gi|674843480|ref|YP_008908924.2| hypothetical protein D174_22560 [Mycobacterium neoaurum VKM Ac-1815D] >gi|674791620|gb|AHC27156.2| hypothetical protein D174_22560 [Mycobacterium neoaurum VKM Ac-1815D]	0.3839869281045752
+EJZ11739	gi|500102699|ref|WP_011778706.1| hypothetical protein [Mycobacterium vanbaalenii] >gi|120402457|ref|YP_952286.1| hypothetical protein Mvan_1446 [Mycobacterium vanbaalenii PYR-1] >gi|119955275|gb|ABM12280.1| conserved hypothetical protein [Mycobacterium vanbaalenii PYR-1]	0.3630922693266833
+gi|500102699|ref|WP_011778706.1| hypothetical protein [Mycobacterium vanbaalenii] >gi|120402457|ref|YP_952286.1| hypothetical protein Mvan_1446 [Mycobacterium vanbaalenii PYR-1] >gi|119955275|gb|ABM12280.1| conserved hypothetical protein [Mycobacterium vanbaalenii PYR-1]	0.3630922693266833
+EJZ11749	gi|490026745|ref|WP_003929222.1| hypothetical protein [Mycobacterium vaccae] >gi|403656959|gb|EJZ11749.1| hypothetical protein MVAC_04222 [Mycobacterium vaccae ATCC 25954]	0.0
+gi|490026745|ref|WP_003929222.1| hypothetical protein [Mycobacterium vaccae] >gi|403656959|gb|EJZ11749.1| hypothetical protein MVAC_04222 [Mycobacterium vaccae ATCC 25954]	0.0
+EJZ11755	gi|500102725|ref|WP_011778732.1| hypothetical protein [Mycobacterium vanbaalenii] >gi|120402483|ref|YP_952312.1| hypothetical protein Mvan_1474 [Mycobacterium vanbaalenii PYR-1] >gi|119955301|gb|ABM12306.1| conserved hypothetical alanine and proline rich protein [Mycobacterium vanbaalenii PYR-1]	0.3704340352385045
+gi|500102725|ref|WP_011778732.1| hypothetical protein [Mycobacterium vanbaalenii] >gi|120402483|ref|YP_952312.1| hypothetical protein Mvan_1474 [Mycobacterium vanbaalenii PYR-1] >gi|119955301|gb|ABM12306.1| conserved hypothetical alanine and proline rich protein [Mycobacterium vanbaalenii PYR-1]	0.3704340352385045
+EJZ11828	gi|574762222|gb|ETW25307.1| hypothetical protein MGAST_03505 [Mycobacterium gastri 'Wayne']	0.1034727143869596
+gi|574762222|gb|ETW25307.1| hypothetical protein MGAST_03505 [Mycobacterium gastri 'Wayne']	0.1034727143869596
+EJZ11829	gi|547792087|ref|WP_022202219.1| putative uncharacterized protein [Clostridium clostridioforme CAG:132] >gi|524414840|emb|CDB62504.1| putative uncharacterized protein [Clostridium clostridioforme CAG:132]	0.0
+gi|547792087|ref|WP_022202219.1| putative uncharacterized protein [Clostridium clostridioforme CAG:132] >gi|524414840|emb|CDB62504.1| putative uncharacterized protein [Clostridium clostridioforme CAG:132]	0.0
+EJZ11851	gi|503237956|ref|WP_013472617.1| hypothetical protein [Mycobacterium gilvum] >gi|315445782|ref|YP_004078661.1| hypothetical protein Mspyr1_42670 [Mycobacterium gilvum Spyr1] >gi|315264085|gb|ADU00827.1| hypothetical protein Mspyr1_42670 [Mycobacterium gilvum Spyr1]	0.22234118486795146
+gi|503237956|ref|WP_013472617.1| hypothetical protein [Mycobacterium gilvum] >gi|315445782|ref|YP_004078661.1| hypothetical protein Mspyr1_42670 [Mycobacterium gilvum Spyr1] >gi|315264085|gb|ADU00827.1| hypothetical protein Mspyr1_42670 [Mycobacterium gilvum Spyr1]	0.22234118486795146
+EJZ05236	gi|638987926|ref|WP_024447977.1| hypothetical protein [Mycobacterium iranicum]	0.36363636363636365
+gi|638987926|ref|WP_024447977.1| hypothetical protein [Mycobacterium iranicum]	0.36363636363636365
+EJZ05241	gi|501208068|ref|WP_012251086.1| GntR family transcriptional regulator [Bordetella petrii] >gi|163858515|ref|YP_001632813.1| GntR family transcriptional regulator [Bordetella petrii DSM 12804] >gi|163262243|emb|CAP44545.1| transcriptional regulator, GntR-family [Bordetella petrii]	0.0
+gi|501208068|ref|WP_012251086.1| GntR family transcriptional regulator [Bordetella petrii] >gi|163858515|ref|YP_001632813.1| GntR family transcriptional regulator [Bordetella petrii DSM 12804] >gi|163262243|emb|CAP44545.1| transcriptional regulator, GntR-family [Bordetella petrii]	0.0
+EJZ05242	gi|652476699|ref|WP_026871383.1| GntR family transcriptional regulator [Inquilinus limosus]	0.0
+gi|652476699|ref|WP_026871383.1| GntR family transcriptional regulator [Inquilinus limosus]	0.0
+EJZ05243	gi|574761745|gb|ETW24907.1| transposase [Mycobacterium gastri 'Wayne']	0.1111111111111111
+gi|574761745|gb|ETW24907.1| transposase [Mycobacterium gastri 'Wayne']	0.1111111111111111
+EJZ05244	gi|500051690|ref|WP_011731607.1| amino acid ABC transporter [Mycobacterium smegmatis] >gi|118469830|ref|YP_891082.1| hydrophobic amino acid ABC transporter [Mycobacterium smegmatis str. MC2 155] >gi|118171117|gb|ABK72013.1| hydrophobic amino acid ABC transporter, putative [Mycobacterium smegmatis str. MC2 155]	0.07984119982355536
+gi|500051690|ref|WP_011731607.1| amino acid ABC transporter [Mycobacterium smegmatis] >gi|118469830|ref|YP_891082.1| hydrophobic amino acid ABC transporter [Mycobacterium smegmatis str. MC2 155] >gi|118171117|gb|ABK72013.1| hydrophobic amino acid ABC transporter, putative [Mycobacterium smegmatis str. MC2 155]	0.07984119982355536
+EJZ05245	gi|502696773|ref|WP_012932145.1| ABC transporter permease [Conexibacter woesei] >gi|284042127|ref|YP_003392467.1| inner-membrane translocator [Conexibacter woesei DSM 14684] >gi|283946348|gb|ADB49092.1| inner-membrane translocator [Conexibacter woesei DSM 14684]	0.0
+gi|502696773|ref|WP_012932145.1| ABC transporter permease [Conexibacter woesei] >gi|284042127|ref|YP_003392467.1| inner-membrane translocator [Conexibacter woesei DSM 14684] >gi|283946348|gb|ADB49092.1| inner-membrane translocator [Conexibacter woesei DSM 14684]	0.0
+EJZ05246	gi|665840911|ref|WP_031209028.1| ABC transporter permease [Mesorhizobium sp. LSJC264A00]	0.0
+gi|665840911|ref|WP_031209028.1| ABC transporter permease [Mesorhizobium sp. LSJC264A00]	0.0
+EJZ05247	gi|148508235|gb|ABQ76022.1| ABC-type branched-chain amino acid transport systems, ATP-binding protein I [uncultured haloarchaeon]	0.0
+gi|148508235|gb|ABQ76022.1| ABC-type branched-chain amino acid transport systems, ATP-binding protein I [uncultured haloarchaeon]	0.0
+EJZ05248	gi|517530478|ref|WP_018700686.1| hypothetical protein [Amorphus coralli]	0.0
+gi|517530478|ref|WP_018700686.1| hypothetical protein [Amorphus coralli]	0.0
+EJZ05249	gi|516556128|ref|WP_017936278.1| hypothetical protein [Nocardioides sp. Iso805N]	0.0
+gi|516556128|ref|WP_017936278.1| hypothetical protein [Nocardioides sp. Iso805N]	0.0
+EJZ05250	gi|490864012|ref|WP_004726049.1| 3-(2,3-dihydroxyphenyl)propionate dioxygenase [Vibrio furnissii] >gi|260616536|gb|EEX41721.1| 2,3-dihydroxyphenylpropionate 1,2-dioxygenase [Vibrio furnissii CIP 102972]	0.0
+gi|490864012|ref|WP_004726049.1| 3-(2,3-dihydroxyphenyl)propionate dioxygenase [Vibrio furnissii] >gi|260616536|gb|EEX41721.1| 2,3-dihydroxyphenylpropionate 1,2-dioxygenase [Vibrio furnissii CIP 102972]	0.0
+EJZ05251	gi|630001000|emb|CDP54096.1| FIG00793746: hypothetical protein [Devosia sp. DBB001]	0.0
+gi|630001000|emb|CDP54096.1| FIG00793746: hypothetical protein [Devosia sp. DBB001]	0.0
+EJZ05252	gi|518344122|ref|WP_019514329.1| hypothetical protein [Mycobacterium neoaurum] >gi|565985503|ref|YP_008906316.1| alpha/beta hydrolase [Mycobacterium neoaurum VKM Ac-1815D] >gi|565684870|gb|AHC24730.1| alpha/beta hydrolase [Mycobacterium neoaurum VKM Ac-1815D]	0.18236472945891782
+gi|518344122|ref|WP_019514329.1| hypothetical protein [Mycobacterium neoaurum] >gi|565985503|ref|YP_008906316.1| alpha/beta hydrolase [Mycobacterium neoaurum VKM Ac-1815D] >gi|565684870|gb|AHC24730.1| alpha/beta hydrolase [Mycobacterium neoaurum VKM Ac-1815D]	0.18236472945891782
+EJZ05253	gi|490397237|ref|WP_004273694.1| amidohydrolase [Nitrospirillum amazonense] >gi|346918442|gb|EGY00412.1| Amidohydrolase [Nitrospirillum amazonense Y2]	0.0
+gi|490397237|ref|WP_004273694.1| amidohydrolase [Nitrospirillum amazonense] >gi|346918442|gb|EGY00412.1| Amidohydrolase [Nitrospirillum amazonense Y2]	0.0
+EJZ07983	gi|638970271|ref|WP_024441878.1| hypothetical protein [Mycobacterium sp. UM_WGJ]	0.2827140549273021
+gi|638970271|ref|WP_024441878.1| hypothetical protein [Mycobacterium sp. UM_WGJ]	0.2827140549273021
+EJZ07984	gi|523701395|ref|WP_020819544.1| MULTISPECIES: dioxygenase [Sphingobium] >gi|523381013|gb|EPR15200.1| dioxygenase [Sphingobium chinhatense IP26] >gi|530260374|gb|EQB03064.1| dioxygenase [Sphingobium sp. HDIP04] >gi|663086328|gb|KER34942.1| dioxygenase [Sphingobium lucknowense F2]	0.0
+gi|523701395|ref|WP_020819544.1| MULTISPECIES: dioxygenase [Sphingobium] >gi|523381013|gb|EPR15200.1| dioxygenase [Sphingobium chinhatense IP26] >gi|530260374|gb|EQB03064.1| dioxygenase [Sphingobium sp. HDIP04] >gi|663086328|gb|KER34942.1| dioxygenase [Sphingobium lucknowense F2]	0.0
+EJZ07988	gi|648521742|ref|WP_026213493.1| 2-hydroxycyclohexanecarboxyl-CoA dehydrogenase [Mycobacterium hassiacum]	0.2675343456254519
+gi|648521742|ref|WP_026213493.1| 2-hydroxycyclohexanecarboxyl-CoA dehydrogenase [Mycobacterium hassiacum]	0.2675343456254519
+EJZ07993	gi|493289117|ref|WP_006246831.1| (2Fe-2S)-binding protein [Mycobacterium tusciae]	0.2353191489361702
+gi|493289117|ref|WP_006246831.1| (2Fe-2S)-binding protein [Mycobacterium tusciae]	0.2353191489361702
+EJZ07994	gi|500102175|ref|WP_011778182.1| ferredoxin [Mycobacterium vanbaalenii] >gi|120401924|ref|YP_951753.1| ferredoxin [Mycobacterium vanbaalenii PYR-1] >gi|119954742|gb|ABM11747.1| ferredoxin [Mycobacterium vanbaalenii PYR-1]	0.3717105263157895
+gi|500102175|ref|WP_011778182.1| ferredoxin [Mycobacterium vanbaalenii] >gi|120401924|ref|YP_951753.1| ferredoxin [Mycobacterium vanbaalenii PYR-1] >gi|119954742|gb|ABM11747.1| ferredoxin [Mycobacterium vanbaalenii PYR-1]	0.3717105263157895
+EJZ07999	gi|642753924|emb|CDQ42578.1| hypothetical protein BN1047_00433 [Mycobacterium neoaurum]	0.16790648246546228
+gi|642753924|emb|CDQ42578.1| hypothetical protein BN1047_00433 [Mycobacterium neoaurum]	0.16790648246546228
+EJZ08003	gi|633833849|emb|CDP89905.1| short chain dehydrogenase/reductase SDR [Mycobacterium farcinogenes]	0.28177196804647786
+gi|633833849|emb|CDP89905.1| short chain dehydrogenase/reductase SDR [Mycobacterium farcinogenes]	0.28177196804647786
+EJZ12323	gi|656082572|ref|WP_029113607.1| hypothetical protein [Mycobacterium sp. URHB0044]	0.3675438596491228
+gi|656082572|ref|WP_029113607.1| hypothetical protein [Mycobacterium sp. URHB0044]	0.3675438596491228
+EJZ12325	gi|518386676|ref|WP_019556883.1| histidinol dehydrogenase [Thiomicrospira arctica]	0.0
+gi|518386676|ref|WP_019556883.1| histidinol dehydrogenase [Thiomicrospira arctica]	0.0
