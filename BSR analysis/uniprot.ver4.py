@@ -73,7 +73,7 @@ def domainCollector(url): #?query=[geneID]&format=txt
 	domTuple = collections.namedtuple('Domain', ['i','p'])
 	info = domTuple(interPro, pFam)
 	return info
-	
+# make openRefence function capable of handling the intersection gene subsets 		
 def openReference(fname): # opens a file with gene names we want to put into UniProt
 	result = []
 	file = open(fname, 'r')
