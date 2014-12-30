@@ -104,6 +104,8 @@ def overlap(newId):
 			overlap[str(overlapSet)][1] = overlap[str(overlapSet)][1].union(newId[gene])
 	return overlap
 
+# change output so there is a tab between intersection length and the list of each gene subset (i.e. tab separate 
+# the number of genes in the intersection. testtest
 def output(result):
 	outputFile = open('./result/result.txt', 'w')
 	outputFlag = input('\nOverlap between how Many Organisms are You Interested in? (type \'n\' if you don\'t know)')
