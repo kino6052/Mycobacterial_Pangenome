@@ -75,10 +75,18 @@ def domainCollector(url): #?query=[geneID]&format=txt
 	return info
 # make openRefence function capable of handling the intersection gene subsets 		
 def openReference(fname): # opens a file with gene names we want to put into UniProt
-	result = []
+	result = {}
 	file = open(fname, 'r')
+	counter = 1
 	for line in file:
-		result.append(line)
+		line = line.split()[3:]
+		for item in line:
+			if not result[counter]:	
+				result[counter] = [item]
+				counter += 1
+		else:
+			result[counter].append(item)
+			counter += 1
 	file.close()
 	return result
 ## returns a list of genes
@@ -89,21 +97,22 @@ def createWorkbook(fname, reference):
 	worksheet = workbook.add_worksheet()
 	referenceList = openReference(reference)
 	counter = 0;
-	for gene in referenceList:
-		worksheet.write(counter, 0, gene.split()[0]) # first is row, then , then value
-		names = nameCollector('http://www.uniprot.org/uniprot/?query=' + str(gene.split()[0]) + '&format=tab')
-		worksheet.write(counter, 1, names[0])
-		worksheet.write(counter, 2, names[1])
-		domains = domainCollector('http://www.uniprot.org/uniprot/?query=' + str(gene.split()[0]) + '&format=txt')
-		worksheet.write(counter, 3, str(domains.i))
-		worksheet.write(counter, 4, str(domains.p))
-		goTerms = goCollecter('http://www.uniprot.org/uniprot/?query=' + str(gene.split()[0]) + '&format=tab&columns=go')
-		c = 0
-		while c < len(goTerms):
-			worksheet.write(counter, 5+c, goTerms[c])
-			c += 1
-		counter += 1;
-		print(str(gene) + ': %' + str(100*counter/len(referenceList)))
+	for counter in referenceList:
+		for gene in referenceList[counter]:
+			worksheet.write(counter, 0, gene.split()[0]) # first is row, then , then value
+			names = nameCollector('http://www.uniprot.org/uniprot/?query=' + str(gene.split()[0]) + '&format=tab')
+			worksheet.write(counter, 1, names[0])
+			worksheet.write(counter, 2, names[1])
+			domains = domainCollector('http://www.uniprot.org/uniprot/?query=' + str(gene.split()[0]) + '&format=txt')
+			worksheet.write(counter, 3, str(domains.i))
+			worksheet.write(counter, 4, str(domains.p))
+			goTerms = goCollecter('http://www.uniprot.org/uniprot/?query=' + str(gene.split()[0]) + '&format=tab&columns=go')
+			c = 0
+			while c < len(goTerms):
+				worksheet.write(counter, 5+c, goTerms[c])
+				c += 1
+			counter += 1;
+			print(str(gene) + ': %' + str(100*counter/len(referenceList)))
 	workbook.close()
 ## void
 

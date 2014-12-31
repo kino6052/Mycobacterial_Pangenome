@@ -32,6 +32,7 @@ from collections import namedtuple
 ## Ask user to provide genomes to build database
 files = [ join('./genomes/',f) for f in listdir('./genomes/') if isfile(join('./genomes/',f)) and '.fa' in f and not '.gz' in f]
 
+# make database.fa file containing all the genomes we are interested in
 def concatFile(genomeFlag):
 	outputFile = open('./database/database.fa', 'w')
 	for num in genomeFlag:
@@ -40,6 +41,7 @@ def concatFile(genomeFlag):
 		for line in tempFile:
 			outputFile.write(line)	
 	outputFile.close()
+
 
 def choseGenomes():
 	print(str(files) + '\n')
@@ -50,6 +52,7 @@ def choseGenomes():
 	genomeFlag = input("\n\nPlease Provide a Combination of Space Separated Numbers (eg. 1 2 3 4): ")
 	genomeFlag = genomeFlag.split(' ')
 	return genomeFlag
+# return a list with numbers that user typed in
 
 def makeDB():	system("makeblastdb.exe -in database.fa -out ./database/database -dbtype prot")
 
@@ -58,7 +61,8 @@ def runBLAST(genomeFlag):
 	for num in genomeFlag:
 		num = int(num)
 		print("Running BLAST...\n")
-		system("blastp.exe -query " + files[num-1] + " -out " + "./database/" + str(num) + " -db ./database/database -evalue " + str(eval) + " -outfmt 6")		
+		system("blastp.exe -query " + files[num-1] + " -out " + "./database/" + str(num) + " -db ./database/database -evalue " + str(eval) + " -outfmt 6")	
+	
 
 def mapping(genomeFlag):
 	newId = {}
@@ -87,6 +91,7 @@ def mapping(genomeFlag):
 				counter += 1
 		inFile.close()
 	return newId
+# return a dictionary with new IDs to which the old genes map
 
 def overlap(newId):
 	overlap = {}
@@ -101,7 +106,7 @@ def overlap(newId):
 			overlap[str(overlapSet)] = [1, newId[gene]]
 		else:
 			overlap[str(overlapSet)][0] += 1 
-			overlap[str(overlapSet)][1] = overlap[str(overlapSet)][1].union(newId[gene])
+			overlap[str(overlapSet)].append(newId[gene])
 	return overlap
 
 # change output so there is a tab between intersection length and the list of each gene subset (i.e. tab separate 
@@ -124,10 +129,13 @@ def output(result):
 		specificOverlap = input()
 		geneList = choiceList[int(specificOverlap) - 1][1]
 		for gene in geneList:
-			outputFile.write(gene + '\n')
+			outputFile.write(str(gene) + '\n')
 	else:
 		for item in result:
-			outputFile.write(str(item) + '\t' + str(len(item)) + '\t' + str(result[item]) + '\n')
+			outputFile.write(str(item) + '\t' + str(len(item)) + '\t') 
+			for gene in result[item]:		
+				outputFile.write(str(gene) + '\t')
+			outputFile.write('\n')
 		outputFile.close()
 	print('\nDone')
 
