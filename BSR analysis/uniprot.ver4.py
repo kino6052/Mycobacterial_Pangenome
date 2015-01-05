@@ -18,8 +18,8 @@ url = 'http://www.uniprot.org/uniprot/?query=CAC30414&format=tab&columns=go'
 referenceName = sys.argv[1]
 workBook = referenceName[0:-4]+'.xlsx'
 
-if len(sys.argv) < 1:
-	print('\nUsage: python uniprot.ver4.py -gene_list_file \n')
+if len(sys.argv) < 2:
+	print('\nUsage: python uniprot.ver4.py "gene_list_file" "number_of_overlaping_organisms"  \n')
 	sys.exit()
 	
 def getUniprotText(url): ## returns a text
@@ -90,22 +90,25 @@ def createWorkbook(fname, reference):
 	referenceDict = openReference(reference)
 	counter = 0;
 	for item in referenceDict:
-		#print(referenceDict)
-		print(referenceDict[item])
-			#worksheet.write(counter, 0, gene.split()[0]) # first is row, then , then value
-			#names = nameCollector('http://www.uniprot.org/uniprot/?query=' + str(gene.split()[0]) + '&format=tab')
-			#worksheet.write(counter, 1, names[0])
-			#worksheet.write(counter, 2, names[1])
-			#domains = domainCollector('http://www.uniprot.org/uniprot/?query=' + str(gene.split()[0]) + '&format=txt')
-			#worksheet.write(counter, 3, str(domains.i))
-			#worksheet.write(counter, 4, str(domains.p))
-			#goTerms = goCollecter('http://www.uniprot.org/uniprot/?query=' + str(gene.split()[0]) + '&format=tab&columns=go')
-			#c = 0
-			#while c < len(goTerms):
-		#		worksheet.write(counter, 5+c, goTerms[c])
-		#		c += 1
-		#	counter += 1;
-		#	print(str(gene) + ': %' + str(100*counter/len(referenceList)))
+		if int(referenceDict[item][3:][0]) == int(sys.argv[2]):
+			print("here")
+			worksheet.write(counter,0,str(item))
+			counter+=1
+			for gene in referenceDict[item][3:][2][1]:
+				worksheet.write(counter, 0, gene) # first is row, then , then value
+				names = nameCollector('http://www.uniprot.org/uniprot/?query=' + gene + '&format=tab')
+				worksheet.write(counter, 1, names[0])
+				#worksheet.write(counter, 2, names[1])
+				domains = domainCollector('http://www.uniprot.org/uniprot/?query=' + gene + '&format=txt')
+				worksheet.write(counter, 3, str(domains.i))
+				worksheet.write(counter, 4, str(domains.p))
+				goTerms = goCollecter('http://www.uniprot.org/uniprot/?query=' + gene + '&format=tab&columns=go')
+				c = 0
+				while c < len(goTerms):
+					worksheet.write(counter, 5+c, goTerms[c])
+					c += 1
+				counter += 1;
+				print(str(gene))
 	workbook.close()
 ## void
 

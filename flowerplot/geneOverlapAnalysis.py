@@ -104,9 +104,9 @@ def overlap(newId):
 				overlapSet.append(trilogon)
 		overlapSet.sort()
 		if str(overlapSet) not in overlap:
-			overlap[str(overlapSet)] = [1, [gene, newId[gene]]]
+			overlap[str(overlapSet)] = [len(overlapSet),1, [gene, newId[gene]]]
 		else:
-			overlap[str(overlapSet)][0] += 1 
+			overlap[str(overlapSet)][1] += 1 
 			overlap[str(overlapSet)].append([gene, newId[gene]])
 	return overlap
 
