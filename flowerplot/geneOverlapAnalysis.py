@@ -20,6 +20,7 @@
 ## MAKE MAPPING INDECES TO BE BASED ON THE NUMBER
 
 import sys
+import pickle
 from os import system
 from os import listdir
 from os.path import isfile, join
@@ -30,8 +31,9 @@ from collections import namedtuple
 ## TO DO: Write test functions to check necessary files in the folder
 
 ## Ask user to provide genomes to build database
-files = [ f for f in listdir('./genomes/') if isfile(join('./genomes/',f)) and '.fa' in f and not '.gz' in f]
+files = [ join('./genomes/',f) for f in listdir('./genomes/') if isfile(join('./genomes/',f)) and '.fa' in f and not '.gz' in f]
 
+# make database.fa file containing all the genomes we are interested in
 def concatFile(genomeFlag):
 	outputFile = open('./database/database.fa', 'w')
 	for num in genomeFlag:
@@ -40,6 +42,7 @@ def concatFile(genomeFlag):
 		for line in tempFile:
 			outputFile.write(line)	
 	outputFile.close()
+
 
 def choseGenomes():
 	print(str(files) + '\n')
@@ -50,6 +53,7 @@ def choseGenomes():
 	genomeFlag = input("\n\nPlease Provide a Combination of Space Separated Numbers (eg. 1 2 3 4): ")
 	genomeFlag = genomeFlag.split(' ')
 	return genomeFlag
+# return a list with numbers that user typed in
 
 def makeDB():	system("makeblastdb.exe -in database.fa -out ./database/database -dbtype prot")
 
@@ -58,7 +62,8 @@ def runBLAST(genomeFlag):
 	for num in genomeFlag:
 		num = int(num)
 		print("Running BLAST...\n")
-		system("blastp.exe -query " + files[num-1] + " -out " + "./database/" + str(num) + " -db ./database/database -evalue " + str(eval) + " -outfmt 6")		
+		system("blastp.exe -query " + files[num-1] + " -out " + "./database/" + str(num) + " -db ./database/database -evalue " + str(eval) + " -outfmt 6")	
+	
 
 def mapping(genomeFlag):
 	newId = {}
@@ -87,6 +92,7 @@ def mapping(genomeFlag):
 				counter += 1
 		inFile.close()
 	return newId
+# return a dictionary with new IDs to which the old genes map
 
 def overlap(newId):
 	overlap = {}
@@ -98,13 +104,16 @@ def overlap(newId):
 				overlapSet.append(trilogon)
 		overlapSet.sort()
 		if str(overlapSet) not in overlap:
-			overlap[str(overlapSet)] = [1, newId[gene]]
+			overlap[str(overlapSet)] = [1, [gene, newId[gene]]]
 		else:
 			overlap[str(overlapSet)][0] += 1 
-			overlap[str(overlapSet)][1] = overlap[str(overlapSet)][1].union(newId[gene])
+			overlap[str(overlapSet)].append([gene, newId[gene]])
 	return overlap
 
+# change output so there is a tab between intersection length and the list of each gene subset (i.e. tab separate 
+# the number of genes in the intersection. testtest
 def output(result):
+	outputFileB = open('./result/result', 'wb')
 	outputFile = open('./result/result.txt', 'w')
 	outputFlag = input('\nOverlap between how Many Organisms are You Interested in? (type \'n\' if you don\'t know)')
 	counter = 1
@@ -122,11 +131,16 @@ def output(result):
 		specificOverlap = input()
 		geneList = choiceList[int(specificOverlap) - 1][1]
 		for gene in geneList:
-			outputFile.write(gene + '\n')
+			outputFile.write(str(gene) + '\n')
 	else:
+		resultDict = {}
+		geneDict = {}
 		for item in result:
-			outputFile.write(str(item) + '\t' + str(len(item)) + '\t' + str(result[item]) + '\n')
-		outputFile.close()
+			resultDict[item] = [item,len(item)]
+			for gene in result[item]:		
+				resultDict[item].append(gene)
+		pickle.dump(resultDict,outputFileB) # we are saving a dictionary not like text, but as a byte stream
+		outputFileB.close()
 	print('\nDone')
 
 def stage01():
