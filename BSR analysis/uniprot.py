@@ -85,8 +85,8 @@ def openReference(fname): # opens a file with gene names we want to put into Uni
 
 def createWorkbook(fname, reference):
 	## Creating an text file
-	file = open('./choice/choice.txt', 'w')
-	workbook = xlsxwriter.Workbook("./result/" + fname)
+	file = open('choice.txt', 'w')
+	workbook = xlsxwriter.Workbook(fname)
 	worksheet = workbook.add_worksheet()
 	referenceDict = openReference(reference)
 	
@@ -98,7 +98,7 @@ def createWorkbook(fname, reference):
 		items.append(item)
 		counter += 1
 	file.close()
-	system('./choice/choice.txt')
+	system('choice.txt')
 	
 	item = items[int(input("Choose the overlap of interest (e.g. 1): ")) - 1]
 	print(str(item) + ' ' + str(referenceDict[item][3:]))
@@ -106,6 +106,8 @@ def createWorkbook(fname, reference):
 	counter+=1
 	for id in referenceDict[item][3:]:
 		for gene in id[1]:
+			if gene[:3] == 'TUB':
+				gene = 'KEP' + gene[3:]
 			worksheet.write(counter, 0, gene) # first is row, then , then value
 			names = nameCollector('http://www.uniprot.org/uniprot/?query=' + gene + '&format=tab')
 			worksheet.write(counter, 1, names[0])
