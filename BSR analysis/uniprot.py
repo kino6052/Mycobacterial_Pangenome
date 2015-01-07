@@ -16,9 +16,9 @@ from os.path import isfile, join, exists
 
 url = 'http://www.uniprot.org/uniprot/?query=CAC30414&format=tab&columns=go'
 referenceName = sys.argv[1]
-workBook = referenceName[0:-4]+'.xlsx'
+workBook = referenceName+'.xlsx'
 
-if len(sys.argv) < 2:
+if len(sys.argv) < 1:
 	print('\nUsage: python uniprot.ver4.py "gene_list_file" "number_of_overlaping_organisms"  \n')
 	sys.exit()
 	
@@ -85,31 +85,41 @@ def openReference(fname): # opens a file with gene names we want to put into Uni
 
 def createWorkbook(fname, reference):
 	## Creating an text file
-	workbook = xlsxwriter.Workbook(fname)
+	file = open('./choice/choice.txt', 'w')
+	workbook = xlsxwriter.Workbook("./result/" + fname)
 	worksheet = workbook.add_worksheet()
 	referenceDict = openReference(reference)
-	counter = 0;
+	
+	## Make a text file with choices
+	counter = 1;
+	items = []
 	for item in referenceDict:
-		if int(referenceDict[item][3:][0]) == int(sys.argv[2]):
-			print("here")
-			worksheet.write(counter,0,str(item))
-			counter+=1
-			for gene in referenceDict[item][3:][2][1]:
-				worksheet.write(counter, 0, gene) # first is row, then , then value
-				names = nameCollector('http://www.uniprot.org/uniprot/?query=' + gene + '&format=tab')
-				worksheet.write(counter, 1, names[0])
-				#worksheet.write(counter, 2, names[1])
-				domains = domainCollector('http://www.uniprot.org/uniprot/?query=' + gene + '&format=txt')
-				worksheet.write(counter, 3, str(domains.i))
-				worksheet.write(counter, 4, str(domains.p))
-				goTerms = goCollecter('http://www.uniprot.org/uniprot/?query=' + gene + '&format=tab&columns=go')
-				c = 0
-				while c < len(goTerms):
-					worksheet.write(counter, 5+c, goTerms[c])
-					c += 1
-				counter += 1;
-				print(str(gene))
+		file.write(str(counter) + ' ' + str(item) + '\n')
+		items.append(item)
+		counter += 1
+	file.close()
+	system('./choice/choice.txt')
+	
+	item = items[int(input("Choose the overlap of interest (e.g. 1): ")) - 1]
+	print(str(item) + ' ' + str(referenceDict[item][3:]))
+	worksheet.write(counter,0,str(item))
+	counter+=1
+	for id in referenceDict[item][3:]:
+		for gene in id[1]:
+			worksheet.write(counter, 0, gene) # first is row, then , then value
+			names = nameCollector('http://www.uniprot.org/uniprot/?query=' + gene + '&format=tab')
+			worksheet.write(counter, 1, names[0])
+			#worksheet.write(counter, 2, names[1])
+			domains = domainCollector('http://www.uniprot.org/uniprot/?query=' + gene + '&format=txt')
+			worksheet.write(counter, 3, str(domains.i))
+			worksheet.write(counter, 4, str(domains.p))
+			goTerms = goCollecter('http://www.uniprot.org/uniprot/?query=' + gene + '&format=tab&columns=go')
+			c = 0
+			while c < len(goTerms):
+				worksheet.write(counter, 5+c, goTerms[c])
+				c += 1
+			counter += 1;
+			print(str(gene))
 	workbook.close()
 ## void
-
 createWorkbook(workBook, referenceName) 

@@ -104,9 +104,9 @@ def overlap(newId):
 				overlapSet.append(trilogon)
 		overlapSet.sort()
 		if str(overlapSet) not in overlap:
-			overlap[str(overlapSet)] = [len(overlapSet),1, [gene, newId[gene]]]
+			overlap[str(overlapSet)] = [1, [gene, newId[gene]]]
 		else:
-			overlap[str(overlapSet)][1] += 1 
+			overlap[str(overlapSet)][0] += 1 
 			overlap[str(overlapSet)].append([gene, newId[gene]])
 	return overlap
 
@@ -117,30 +117,13 @@ def output(result):
 	outputFile = open('./result/result.txt', 'w')
 	outputFlag = input('\nOverlap between how Many Organisms are You Interested in? (type \'n\' if you don\'t know)')
 	counter = 1
-	choiceList = []
-	if outputFlag != 'n':
-		print('\nChoose the Overlap of Interest:')
-		for overlap in result:
-			#print(str(overlap) + ' ' + str(len(overlap.split())) + '\n')
-			if len(overlap.split()) == int(outputFlag):
-				print(str(counter) + ' ' + str(overlap) + '\n')
-				choiceList.append(result[overlap])
-				counter+=1
-			else:
-				pass
-		specificOverlap = input()
-		geneList = choiceList[int(specificOverlap) - 1][1]
-		for gene in geneList:
-			outputFile.write(str(gene) + '\n')
-	else:
-		resultDict = {}
-		geneDict = {}
-		for item in result:
-			resultDict[item] = [item,len(item)]
-			for gene in result[item]:		
-				resultDict[item].append(gene)
-		pickle.dump(resultDict,outputFileB) # we are saving a dictionary not like text, but as a byte stream
-		outputFileB.close()
+	resultDict = {}
+	for item in result:
+		resultDict[item] = [item,len(item)]
+		for gene in result[item]:		
+			resultDict[item].append(gene)
+	pickle.dump(resultDict,outputFileB) # we are saving a dictionary not like text, but as a byte stream
+	outputFileB.close()
 	print('\nDone')
 
 def stage01():
