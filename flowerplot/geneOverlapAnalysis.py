@@ -122,7 +122,9 @@ def output(result):
 		resultDict[item] = [item,len(item)]
 		for gene in result[item]:		
 			resultDict[item].append(gene)
+	outputFile.write(str(item) + '\t' + str(resultDict[item][2] + '\t' + str(resultDict[item][3:])))
 	pickle.dump(resultDict,outputFileB) # we are saving a dictionary not like text, but as a byte stream
+	outputFile.close()
 	outputFileB.close()
 	print('\nDone')
 
