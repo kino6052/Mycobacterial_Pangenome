@@ -55,14 +55,14 @@ def choseGenomes():
 	return genomeFlag
 # return a list with numbers that user typed in
 
-def makeDB():	system("makeblastdb.exe -in database.fa -out ./database/database -dbtype prot")
+def makeDB():	system("./database/makeblastdb.exe -in database.fa -out ./database/database -dbtype prot")
 
 def runBLAST(genomeFlag):
 	eval = input("Choose E-value: ")
 	for num in genomeFlag:
 		num = int(num)
 		print("Running BLAST...\n")
-		system("blastp.exe -query " + files[num-1] + " -out " + "./database/" + str(num) + " -db ./database/database -evalue " + str(eval) + " -outfmt 6")	
+		system("./database/blastp.exe -query " + files[num-1] + " -out " + "./database/" + str(num) + " -db ./database/database -evalue " + str(eval) + " -outfmt 6")	
 	
 
 def mapping(genomeFlag):
@@ -122,7 +122,7 @@ def output(result):
 		resultDict[item] = [item,len(item)]
 		for gene in result[item]:		
 			resultDict[item].append(gene)
-	outputFile.write(str(item) + '\t' + str(resultDict[item][2] + '\t' + str(resultDict[item][3:])))
+		outputFile.write(str(item) + '\t' + str(resultDict[item][2]) + '\t' + str(resultDict[item][3:]) + '\n')
 	pickle.dump(resultDict,outputFileB) # we are saving a dictionary not like text, but as a byte stream
 	outputFile.close()
 	outputFileB.close()
